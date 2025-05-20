@@ -1,0 +1,87 @@
+<style>
+    .search-box1 {
+        font-size: 15px;
+        padding: 6px 0px 6px 10px;
+        color: black;
+        border-radius: 8px;
+        border-width: 1px;
+
+    }
+
+    .search-box2{
+        font-size: 15px;
+        padding: 6px 0px 6px 10px;
+        color: black;
+        border-radius: 20px;
+        border-width: 1px;
+        margin-top: 30px;
+        width: 500px;
+        padding: 10px 0px 10px 15px;
+        color: black;
+        background-color: white;
+        border: none;
+        box-shadow: -1px 1px 5px #aaaaaa;
+        margin-left: 10px;
+
+    }
+
+    #parent {
+        white-space: nowrap;
+        margin-top: 40px;
+        width: 500px;
+        height: 60px;
+        border-radius: 1px black;
+        background-color: aliceblue;
+        padding: 10px 0px 10px 10px;
+
+    }
+
+    .child {
+        display:inline-block;
+        vertical-align: middle;
+        font-family: Arial;
+        font-size: 20px;
+
+        
+    }
+    
+    .cat {
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-right: 8px;
+    }
+
+    .text {
+        margin-right: 160px;
+    }
+
+    .button {
+        border-radius: 18px;
+        padding: 5px 8px 5px 8px;
+        width: 85px;
+        height: 38px;
+        margin-right: 5px;
+        border-width: px;
+        background-color: rgb(47, 126, 231);
+        color: white;
+        font-weight: 600;
+        border-color: rgb(29, 121, 197);
+        border-style: solid;
+    } 
+</style>
+
+<body>
+    
+
+<input class="search-box1" type="text" placeholder="Search ">
+
+<input class="search-box2" type="text" placeholder="Search Google or type a URL">
+
+<div id="parent">
+    <img class="child cat" src="static/cat.jpeg" alt="Cat Image">
+    <p class="child text">What's happening?</p>
+    <button class="child button">Tweet</button>
+</div>
+</body>
